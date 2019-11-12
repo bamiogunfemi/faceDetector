@@ -1,9 +1,19 @@
 body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-repeat: no-repeat;
+  background :no-repeat center center fixed;
+  background-image: linear-gradient(to right top, #0a54c2, #4151d3, #6a4ae0, #923ae8, #ba12eb) ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-image: linear-gradient(to left top, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
+  
+
+  
 }
 
 
+button{
+  cursor: pointer;
+}
