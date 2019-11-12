@@ -5,8 +5,8 @@ import './logo.scss'
 const Logo = () => {
   return (
    <div className="ma4 mt0">
-       <Tilt className="Tilt br2 shadow-2" options={{ max : 20 }} style={{ height: 100, width: 250 }} >
- <div className="Tilt-inner"> <span role='img' aria-label='emoji'>👽</span> </div>
+       <Tilt className="Tilt br2 shadow-2" options={{ max : 40 }} style={{ height: 120, width: 125 }} >
+ <div className="Tilt-inner"><img className= 'pa4' alt='logo' src="https://img.icons8.com/nolan/64/000000/saw-blade.png"/> </div>
 </Tilt>
    </div>
   );
